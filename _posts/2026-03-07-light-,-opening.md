@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "light, opening"
+title: "light, algorithm"
 date: 2026-03-07 23:06:00
 categories: blog
 tags: [personal, art, creative]
