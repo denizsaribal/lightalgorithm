@@ -22,11 +22,11 @@ title: My Medusa World
 email: avadesmond@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   We need both creativity and a people.
-baseurl: "/text" # the subpath of your site, e.g. /blog
-url: "mymedusaworld.blog" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: 
+url: "https://denizsaribal.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: jekyll-theme-persephone
+remote_theme: erlzhang/jekyll-theme-persephone
 future: true
 comment:
   enabled: true
