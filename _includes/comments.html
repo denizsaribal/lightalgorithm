@@ -1,0 +1,16 @@
+<section id="comments" style="margin-top:2em;">
+  <h3>Comments</h3>
+  <ul>
+    {% assign post_comments = site.data.comments | where: "post", page.slug %}
+    {% if post_comments.size > 0 %}
+      {% for comment in post_comments %}
+        <li style="margin-bottom:1em; padding:0.5em; border-bottom:1px solid #ccc;">
+          <strong>{{ comment.username }}</strong> - <em>{{ comment.date }}</em>
+          <p>{{ comment.content }}</p>
+        </li>
+      {% endfor %}
+    {% else %}
+      <p>No comments yet.</p>
+    {% endif %}
+  </ul>
+</section>
